@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E0178A06-932B-47AA-B2D8-7F6566ACB558}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{42504F2B-BF9E-4A76-9DAF-E9812FE3A929}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin.Compression", "src\Owin.Compression\Owin.Compression.csproj", "{8FAB36DD-153B-4F20-BA9F-8CEE87D5214B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FAB36DD-153B-4F20-BA9F-8CEE87D5214B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAB36DD-153B-4F20-BA9F-8CEE87D5214B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAB36DD-153B-4F20-BA9F-8CEE87D5214B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAB36DD-153B-4F20-BA9F-8CEE87D5214B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FAB36DD-153B-4F20-BA9F-8CEE87D5214B} = {E0178A06-932B-47AA-B2D8-7F6566ACB558}
+	EndGlobalSection
+EndGlobal
